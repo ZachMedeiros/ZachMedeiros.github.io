@@ -32,6 +32,29 @@ h1{
   font-size: 60px;
   color: white;
 }
+
+#home_list{
+  display:flex;
+  justify-content: space-around;
+}
+
+#home_button{
+  
+background-color: aliceblue;
+}
+
+#projects_button{
+  background-color: aliceblue;
+}
+
+#resume_button{
+  background-color: aliceblue;
+}
+
+#contactinfo_button{
+  background-color: aliceblue;
+}
+
 </style>
 </head>
 
@@ -39,11 +62,17 @@ h1{
 	<div id="particles-js">
     <header> 
       <nav>
-        <ul>
-          <li> Home </li>
-          <li> Projects </li>
-          <li> Resume </li>
-          <li> Contact Info </li>
+        <ul id="home_list">
+          <li id ="home_button"> 
+            <button> Home </button>
+          </li>
+
+          <li id ="projects_button"> 
+          <button> Projects </button>
+           </li>
+           
+          <li id ="resume_button"> Resume </li>
+          <li id ="contactinfo_button"> Contact Info </li>
         </ul>
       </nav>
     </header>
