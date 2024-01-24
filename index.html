@@ -8,54 +8,8 @@
 <meta name="viewport" content="width=device-width, initial scale=1.0">
 <title> My Website</title>
 
-<style> 
 
-*
-{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-#particles-js
-{
-width: 100;
-height: 100vh;
-background-image: url(Images/blurry-gradient-haikei.png);
-}
-
-h1{
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 60px;
-  color: white;
-}
-
-#home_list{
-  display:flex;
-  justify-content: space-around;
-}
-
-#home_button{
-  
-background-color: aliceblue;
-}
-
-#projects_button{
-  background-color: aliceblue;
-}
-
-#resume_button{
-  background-color: aliceblue;
-}
-
-#contactinfo_button{
-  background-color: aliceblue;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -70,19 +24,19 @@ background-color: aliceblue;
           <li id ="projects_button"> 
           <button> Projects </button>
            </li>
-           
-          <li id ="resume_button"> Resume </li>
-          <li id ="contactinfo_button"> Contact Info </li>
+
+          <li id ="resume_button">
+          <button> Resume </button>
+             </li>
+
+          <li id ="contactinfo_button"> 
+          <button> Contact Info </button>
+          </li>
         </ul>
       </nav>
     </header>
     <h1>Zach Medeiros</h1>
   </div>
-<!-- Particles Js files-->
-
-
-<!-- first Particles.js then app.js-->
-
 <script src="particles.js"> </script>
 <script src="app.js"</script></script>
   </body>
